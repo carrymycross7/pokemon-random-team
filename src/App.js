@@ -1,9 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import {PokemonCard} from "./components/PokemonCard";
 
 function App() {
   return (
-    <h1></h1>
+    <main>
+      <PokemonCard />
+    </main>
   );
 }
 
